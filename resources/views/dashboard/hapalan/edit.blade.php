@@ -28,7 +28,7 @@
            @enderror
         </div>
         <div class="mb-3">
-          <label for="ayat" class="form-label">Ayat</label>
+          <label for="ayat" class="form-label">Alamat</label>
           <input type="text" class="form-control  @error('ayat') is-invalid @enderror" id="ayat" name="ayat" value="{{ old('ayat', $hapalan->ayat) }}">
           @error('ayat')
             <div class="invalid-feedback">
@@ -36,7 +36,6 @@
             </div>
            @enderror
         </div>
-        
         <button type="submit" class="btn btn-primary">Update</button>
       </form>
 </div>
