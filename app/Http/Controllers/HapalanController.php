@@ -54,7 +54,7 @@ class HapalanController extends Controller
 
             
         $validatedData = $request->validate($rules);
-        $validatedData['user_id'] = $request->user_id;
+        $validatedData['user_id'] = $hapalan->user_id;
         Hapalan::where('id', $hapalan->id)->update($validatedData);
         return redirect('/dashboard/'.$hapalan->user_id)->with('success', 'Hapalan Berhasil Diubah!');
     }

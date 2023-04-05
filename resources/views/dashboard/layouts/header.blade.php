@@ -1,6 +1,6 @@
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
   <div class="container">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 fs-6" href="#">Hapalan Santri</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 fs-6" href="#">Catatan Hapalan Santri</a>
     <div class="navbar-nav">
     </div>
     <div class="nav-item text-nowrap">
